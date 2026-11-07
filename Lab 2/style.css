@@ -1,0 +1,18 @@
+body {
+font-family: Arial, sans-serif;
+background-color: lightblue;
+margin: 20px;
+}
+
+h1 {
+color: darkblue;
+}
+
+h2 {
+color: green;
+}
+
+p {
+font-size: 18px;
+color: black;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile First Layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: lightblue;
+            padding: 20px;
+            border: 1px solid blue;
+            border-radius: 10px;
+        }
+
+        @media (min-width: 600px) {
+            .cards {
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mobile First Layout</h1>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>Card One</h2>
+            <p>This is the first card.</p>
+        </div>
+
+        <div class="card">
+            <h2>Card Two</h2>
+            <p>This is the second card.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
